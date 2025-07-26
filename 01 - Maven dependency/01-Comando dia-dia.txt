@@ -1,0 +1,6 @@
+CRIAR UM PROJETO MAVEN BY CMD:
+mvn archetype:generate -DgroupId=com.dio.mvn.project -DartifactId=MavenInicial -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+=========================
+TESTAR AS DEPENDENCIAS/PROJETO MAVEN: (ACESSAR A PASTA DO PROJETO) CD C:\WORKSPACE\MAVENINICIAL\(comando teste) mvn test
+outros comandos: mvn clean install(limpa e reinstala dependências)
+=========================

@@ -1,0 +1,21 @@
+Scopes no Maven
+Scopes definem em que fase do ciclo de vida do projeto Maven uma dependência será usada (compilação, teste, execução). Isso ajuda a controlar o que é incluído no build final.
+
+compile
+Quando não definido um <scope></scope> é aplicado como Padrão. 
+Usado em todas as fases (compilação, teste, execução). É empacotado no JAR.
+
+provided
+Usado na compilação e teste, mas não é empacotado. A dependência será fornecida pelo servidor (ex: Servlet API).
+
+runtime
+Usado em tempo de execução e teste, mas não na compilação. Ex: driver JDBC.
+
+test
+Usado somente em testes. Não participa da compilação nem do empacotamento. Ex: JUnit.
+
+system
+Como provided, mas exige um caminho fixo no sistema. Uso desencorajado.
+
+import
+Usado em <dependencyManagement> para importar dependências de um BOM. Controle centralizado de versões.
