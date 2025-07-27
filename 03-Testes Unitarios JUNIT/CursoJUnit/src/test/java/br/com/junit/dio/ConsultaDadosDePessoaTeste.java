@@ -1,11 +1,7 @@
 package br.com.junit.dio;
 
-import org.junit.jupiter.api.AfterAll;
-import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.*;
 
-import static br.com.junit.dio.BancoDeDados.LOGGER;
 
 public class ConsultaDadosDePessoaTeste {
 
@@ -22,6 +18,13 @@ public class ConsultaDadosDePessoaTeste {
         Assertions.assertTrue(true);
     }
 
+
+    @BeforeEach
+    void insereDadosParaTestes(){
+        ;
+    }
+
+
     // metodo que é executado depois de tudo
     @AfterAll
     static void FinalizaConexao(){
@@ -30,17 +33,5 @@ public class ConsultaDadosDePessoaTeste {
     }
 
 
-    // DEFININDO OUTROS TESTES
 
-    public static void insereDados(Pessoa p){
-        // insere pessoa no BD
-        BancoDeDados.iniciarConexao();
-        LOGGER.info("Inseriu dados");
-    }
-
-    public static void removeDados(Pessoa p){
-        // insere pessoa no BD
-        BancoDeDados.iniciarConexao();
-        LOGGER.info("Removeu dados");
-    }
 }

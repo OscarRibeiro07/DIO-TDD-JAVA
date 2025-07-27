@@ -12,4 +12,16 @@ public class BancoDeDados {
     public static void finaliazConexao(){
         LOGGER.info("finalizou conexão");
     }
+
+    // DEFININDO OUTROS TESTES
+
+    public static void insereDados(Pessoa p){
+        // insere pessoa no BD
+        LOGGER.info("Inseriu dados");
+    }
+
+    public static void removeDados(Pessoa p){
+        // remove pessoa no BD
+        LOGGER.info("Removeu dados");
+    }
 }
