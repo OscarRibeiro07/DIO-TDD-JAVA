@@ -1,0 +1,12 @@
+JUnit permite que desenvolvedores testem pequenas partes do código (métodos, classes) de forma automática, garantindo que o comportamento esteja correto.
+
+Características principais:
+Fácil de integrar em projetos Java (especialmente com Maven ou Gradle).
+
+Utiliza anotações como @Test, @BeforeEach, @AfterEach, etc.
+
+Permite criar testes rápidos e repetíveis.
+
+Suporta assertivas (assertEquals, assertTrue, etc.) para validar resultados esperados.
+
+Muito usado junto com Mockito para testes com dependências simuladas (mocking).

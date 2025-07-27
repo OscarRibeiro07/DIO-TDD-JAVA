@@ -1,0 +1,41 @@
+PIRÂMIDE DE TESTES
+===================
+
+A Pirâmide de Testes é um conceito que orienta a distribuição ideal dos tipos de testes em um projeto de software. Ela propõe uma base sólida de testes rápidos e automatizados na base e menos testes complexos e lentos no topo.
+
+ESTRUTURA DA PIRÂMIDE
+----------------------
+
+1. BASE – TESTES UNITÁRIOS
+- São a maior parte da pirâmide.
+- Testam unidades isoladas do código, como métodos e funções.
+- São rápidos, baratos e fáceis de manter.
+- Ideal para detectar erros cedo no desenvolvimento.
+
+2. MEIO – TESTES DE INTEGRAÇÃO
+- Testam a interação entre componentes do sistema (ex: serviços, banco de dados, APIs).
+- Validação intermediária: nem tão rápidos quanto os testes unitários, mas mais abrangentes.
+- Detectam falhas de comunicação entre partes do sistema.
+
+3. TOPO – TESTES DE INTERFACE / E2E
+- Simulam o comportamento do usuário no sistema completo.
+- Testes mais lentos e custosos de manter.
+- Devem ser usados de forma controlada para validar fluxos principais.
+
+OBJETIVO
+--------
+- Ter muitos testes rápidos (unitários), alguns testes intermediários (integração) e poucos testes caros (E2E).
+- Garantir qualidade com eficiência e rapidez no feedback.
+
+OBSERVAÇÃO
+----------
+- Inverter a pirâmide (com muitos testes E2E e poucos unitários) pode aumentar o tempo de execução,
+  a dificuldade de manutenção e tornar o processo de testes menos confiável.
+
+RESUMO
+------
+- A Pirâmide de Testes ajuda a criar uma estratégia de testes equilibrada:
+  - Base forte com testes unitários;
+  - Camada intermediária de testes de integração;
+  - Topo leve com testes E2E.
+- O objetivo é garantir qualidade com velocidade, mantendo os testes eficientes, automatizados e confiáveis.

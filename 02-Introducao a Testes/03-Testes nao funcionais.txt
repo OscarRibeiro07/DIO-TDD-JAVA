@@ -1,0 +1,14 @@
+Testes não funcionais validam como o sistema se comporta, e não o que ele faz. Eles verificam desempenho, segurança, usabilidade, escalabilidade, confiabilidade, entre outros.
+
+Exemplos:
+Teste de desempenho: mede tempo de resposta, uso de CPU/memória.
+
+Teste de carga: verifica o sistema sob grande volume de usuários.
+
+Teste de estresse: avalia o sistema em condições extremas.
+
+Teste de segurança: busca vulnerabilidades e proteção contra ataques.
+
+Teste de usabilidade: verifica se o sistema é fácil de usar.
+
+Teste de compatibilidade: testa em diferentes dispositivos, navegadores, etc.

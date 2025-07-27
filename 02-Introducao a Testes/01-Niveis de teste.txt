@@ -1,0 +1,33 @@
+NÍVEIS DE TESTES EM DESENVOLVIMENTO DE SOFTWARE
+===============================================
+
+1. TESTE UNITÁRIO
+-----------------
+- Foco: Testa unidades isoladas do código (ex: métodos ou classes individuais).
+- Objetivo: Garantir que cada função faz o que se espera.
+- Feito por: Desenvolvedores.
+- Ferramentas (Java): JUnit, Mockito.
+
+2. TESTE DE INTEGRAÇÃO
+----------------------
+- Foco: Verifica se diferentes partes do sistema funcionam juntas (ex: serviço + repositório).
+- Objetivo: Detectar falhas na comunicação entre módulos.
+- Feito por: Desenvolvedores ou QA.
+- Ferramentas: Testcontainers, Spring Boot Test.
+
+3. TESTE DE SISTEMA (END-TO-END)
+--------------------------------
+- Foco: Testa o sistema como um todo, simulando o uso real.
+- Objetivo: Validar todos os fluxos completos.
+- Feito por: QA ou automatizado.
+- Ferramentas: Selenium, Cypress, RestAssured (para APIs).
+
+4. TESTE DE ACEITAÇÃO
+---------------------
+- Foco: Valida se o sistema atende aos requisitos do cliente.
+- Objetivo: Aprovação final do software.
+- Feito por: Cliente, PO ou QA.
+- Ferramentas: Cucumber (BDD).
+
+
+	

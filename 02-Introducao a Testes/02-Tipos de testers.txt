@@ -1,0 +1,25 @@
+		------------TIPOS DE QUEM TESTA ---------------
+
+
+TESTE ALPHA -> Testes realizados internamente antes de qualquer liberação externa.
+Participam desenvolvedores, QA e stakeholders.
+O objetivo é encontrar falhas em um ambiente controlado, muito parecido com o de produção.
+
+
+TESTE BETA ->  Realizado após o Alpha, é feito por um grupo de usuários reais.
+Pode ser aberto (qualquer um testa) ou fechado (grupo restrito).
+O foco é coletar feedback do uso em condições reais antes da liberação geral.
+
+
+TESTE CANARY -> Técnica de liberação gradual, onde apenas uma pequena parte dos usuários recebe a nova versão.
+Permite monitoramento em produção com baixo risco.
+Caso ocorra algum problema, o impacto é limitado e a reversão é facilitada.
+
+RESUMO
+Testes unitários e de integração garantem a qualidade técnica do código.
+Testes de sistema e aceitação validam o comportamento e os requisitos do negócio.
+Testes Alpha, Beta e Canary são estratégicos para validar o sistema antes e durante a liberação em produção:
+    - Alpha = testes internos.
+    - Beta = testes reais com usuários externos.
+    - Canary = liberação controlada com monitoramento em produção.
+  Juntos, esses testes ajudam a garantir entregas seguras, estáveis e com qualidade.
