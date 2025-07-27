@@ -19,10 +19,10 @@ public class PessoaTest {
         Assertions.assertTrue(p2.maiorIdade());
     }
 
-    @Test
+    @Test // -> Define que é um teste
     void validaMultiplosIdadeAtualMaiorIdade(){
-        Pessoa p3 = new Pessoa("Rafael ", LocalDate.of(2000,10,07));
-        Assertions.assertTrue(p3.maiorIdade());
+        Pessoa p3 = new Pessoa("Rafael ", LocalDate.of(2000,10,07)); //--> cenario de teste
+        Assertions.assertTrue(p3.maiorIdade()); // --> executando validções
 
         Pessoa p4 = new Pessoa("Rafael ", LocalDate.now());
         Assertions.assertFalse(p4.maiorIdade());
