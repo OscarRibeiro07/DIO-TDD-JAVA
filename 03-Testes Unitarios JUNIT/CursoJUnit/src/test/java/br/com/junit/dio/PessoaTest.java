@@ -18,4 +18,14 @@ public class PessoaTest {
         Pessoa p2 = new Pessoa("Rafael ", LocalDate.of(2000,10,07));
         Assertions.assertTrue(p2.maiorIdade());
     }
+
+    @Test
+    void validaMultiplosIdadeAtualMaiorIdade(){
+        Pessoa p3 = new Pessoa("Rafael ", LocalDate.of(2000,10,07));
+        Assertions.assertTrue(p3.maiorIdade());
+
+        Pessoa p4 = new Pessoa("Rafael ", LocalDate.now());
+        Assertions.assertFalse(p4.maiorIdade());
+
+    }
 }
