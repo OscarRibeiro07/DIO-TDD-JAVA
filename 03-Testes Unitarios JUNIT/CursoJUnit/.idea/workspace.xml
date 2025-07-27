@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3a92d4ba-e91e-44bd-b733-51ee3327ce0c" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="30SRCycYQ8KOjTnDaE07FlCpb8S" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.AssertionTest.validaObjetoEstaNull.executor": "Run",
+    "JUnit.AssertionTest.validaTiposDiferentesNumeros.executor": "Run",
+    "JUnit.AssertionTest.validarLancamento.executor": "Run",
+    "JUnit.AssertionTest.validarLancamentoAlgunsDiferentes.executor": "Run",
+    "JUnit.AssertionTest.validarLancamentoIguais.executor": "Run",
+    "JUnit.AssumptionsTeste.validarAlgoSomenteNoUsuarioOscar.executor": "Run",
+    "JUnit.CondicionaisTeste.maximoDeVersao.executor": "Run",
+    "JUnit.CondicionaisTeste.sistemaOperacionalLinuxCloser.executor": "Run",
+    "JUnit.CondicionaisTeste.validarAlgoSomenteNoUsuarioOscar.executor": "Run",
+    "JUnit.CondicionaisTeste.validarAlgoSomenteNoUsuarioOscar2.executor": "Run",
+    "JUnit.CondicionaisTeste.validarAlgoSomenteNoUsuarioOscarLinux.executor": "Run",
+    "JUnit.CondicionaisTeste.validarAlgoSomenteNoUsuarioOscarLinuxCloser.executor": "Run",
+    "JUnit.CondicionaisTeste.validarAlgoSomenteNoUsuarioOscarLinuxMAc.executor": "Run",
+    "JUnit.CondicionaisTeste.variosSistemaOperacionalinuxMAc.executor": "Run",
+    "JUnit.CondicionaisTeste.versaoExpecificaJAva.executor": "Run",
+    "JUnit.CondicionaisTeste.versaoExpecificaJAva11.executor": "Run",
+    "JUnit.CondicionaisTeste.versaoExpecificaJAva17.executor": "Run",
+    "JUnit.ConsultaDadosDePessoaTeste.executor": "Run",
+    "JUnit.EscolhendoOrdem.executor": "Run",
+    "JUnit.EscolhendoOrdemAleatorio.executor": "Run",
+    "JUnit.EscolhendoOrdemNome.executor": "Run",
+    "JUnit.EscolhendoOrdemPorNotacao.executor": "Run",
+    "JUnit.ExceprionTeste.validaExceptionTransfere.executor": "Run",
+    "JUnit.ExceprionTeste.validaExceptionTransfereEx1.executor": "Run",
+    "JUnit.ExceprionTeste.validaExceptionTransfereExisteEx.executor": "Run",
+    "JUnit.PessoaTest.ValidarCAlculoDeIdade.executor": "Run",
+    "JUnit.PessoaTest.executor": "Run",
+    "JUnit.PessoaTest.validaMaiorIdade.executor": "Run",
+    "JUnit.PessoaTest.validaMultiplosIdadeAtualMaiorIdade.executor": "Debug",
+    "Maven.CursoJUnit [install].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "develop",
+    "ignore.virus.scanning.warn.message": "true",
+    "onboarding.tips.debug.path": "C:/Idea/CursoJUnit/src/main/java/br/com/junit/dio/Main.java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="br.com.junit.dio" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="br.com.junit.dio" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn install" />
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.EscolhendoOrdemPorNotacao">
+    <configuration name="EscolhendoOrdem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CursoJUnit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.junit.dio.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.junit.dio" />
+      <option name="MAIN_CLASS_NAME" value="br.com.junit.dio.EscolhendoOrdem" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EscolhendoOrdemAleatorio" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CursoJUnit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.junit.dio.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.junit.dio" />
+      <option name="MAIN_CLASS_NAME" value="br.com.junit.dio.EscolhendoOrdemAleatorio" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EscolhendoOrdemNome" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CursoJUnit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.junit.dio.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.junit.dio" />
+      <option name="MAIN_CLASS_NAME" value="br.com.junit.dio.EscolhendoOrdemNome" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EscolhendoOrdemPorNotacao" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CursoJUnit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.junit.dio.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.junit.dio" />
+      <option name="MAIN_CLASS_NAME" value="br.com.junit.dio.EscolhendoOrdemPorNotacao" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExceprionTeste.validaExceptionTransfere" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CursoJUnit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.junit.dio.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.junit.dio" />
+      <option name="MAIN_CLASS_NAME" value="br.com.junit.dio.ExceprionTeste" />
+      <option name="METHOD_NAME" value="validaExceptionTransfere" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.EscolhendoOrdemPorNotacao" />
+        <item itemvalue="JUnit.EscolhendoOrdemAleatorio" />
+        <item itemvalue="JUnit.EscolhendoOrdemNome" />
+        <item itemvalue="JUnit.EscolhendoOrdem" />
+        <item itemvalue="JUnit.ExceprionTeste.validaExceptionTransfere" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3a92d4ba-e91e-44bd-b733-51ee3327ce0c" name="Changes" comment="" />
+      <created>1753618865605</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1753618865605</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/br/com/junit/dio/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
