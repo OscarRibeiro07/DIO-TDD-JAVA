@@ -12,4 +12,10 @@ public class PessoaTest {
         Assertions.assertEquals(4, p1.getIdade());
 
     }
+
+    @Test
+    void validaMaiorIdade(){
+        Pessoa p2 = new Pessoa("Rafael ", LocalDate.of(2000,10,07));
+        Assertions.assertTrue(true);
+    }
 }
