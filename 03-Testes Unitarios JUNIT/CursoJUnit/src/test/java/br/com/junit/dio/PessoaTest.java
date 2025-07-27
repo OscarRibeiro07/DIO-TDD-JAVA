@@ -16,6 +16,6 @@ public class PessoaTest {
     @Test
     void validaMaiorIdade(){
         Pessoa p2 = new Pessoa("Rafael ", LocalDate.of(2000,10,07));
-        Assertions.assertTrue(true);
+        Assertions.assertTrue(p2.maiorIdade());
     }
 }
