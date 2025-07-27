@@ -1,0 +1,22 @@
+COMO FUNCIONA O TESTE UNITÁRIO EM JAVA
+=======================================
+
+O teste unitário é uma técnica usada para validar partes isoladas do código, como métodos ou funções, garantindo que funcionem corretamente de forma independente. No Java, é comum utilizar o framework JUnit para escrever e automatizar esses testes.
+
+Cada teste unitário verifica se a saída de uma função, dada uma entrada específica, corresponde ao valor esperado. Esses testes são rápidos, automatizados e ajudam a detectar erros logo nas primeiras fases do desenvolvimento.
+
+VANTAGENS
+---------
+- Identifica falhas cedo no processo de desenvolvimento.
+- Aumenta a confiança nas mudanças de código.
+- Facilita a refatoração segura.
+- Reduz o custo de manutenção do software.
+- Serve como documentação viva do comportamento esperado.
+
+OBSERVAÇÕES
+-----------
+- Os testes devem ser simples, isolados e de fácil execução.
+- Devem ser independentes: um teste não deve depender da execução de outro.
+- Dependências externas (como banco de dados, serviços externos, etc.) devem ser simuladas com mocks ou stubs.
+- A manutenção dos testes é tão importante quanto a manutenção do código de produção.
+- A cobertura de testes não garante ausência de bugs, mas reduz significativamente os riscos.
