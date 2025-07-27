@@ -2,6 +2,8 @@ package br.com.junit.dio;
 
 import org.junit.jupiter.api.*;
 
+import java.time.LocalDate;
+
 
 public class ConsultaDadosDePessoaTeste {
 
@@ -21,9 +23,13 @@ public class ConsultaDadosDePessoaTeste {
 
     @BeforeEach
     void insereDadosParaTestes(){
-        ;
+        BancoDeDados.insereDados(new Pessoa("Maicon", LocalDate.of(2023,01,23)));
     }
 
+    @AfterEach
+    void removeDados(){
+        BancoDeDados.removeDados(new Pessoa("Maicon", LocalDate.of(2023,01,23)));
+    }
 
     // metodo que é executado depois de tudo
     @AfterAll
