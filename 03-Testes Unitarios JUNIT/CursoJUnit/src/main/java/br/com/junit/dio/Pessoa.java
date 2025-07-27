@@ -22,4 +22,9 @@ public class Pessoa {
     }
 
     public int getIdade(){return (int) ChronoUnit.YEARS.between(this.data,LocalDate.now()); }
+
+    public boolean maiorIdade(){
+      return getIdade() >=18;
+
+    }
 }
