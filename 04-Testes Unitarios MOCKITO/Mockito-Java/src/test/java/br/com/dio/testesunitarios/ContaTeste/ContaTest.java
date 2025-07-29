@@ -31,7 +31,7 @@ public class ContaTest {
         conta.validaSaldo(300);
         conta.validaSaldo(500);
         conta.validaSaldo(600);
-        // conta quantas vezes o metodo foi chamado 
+        // conta quantas vezes o metodo foi chamado
         Mockito.verify(conta, Mockito.times(3)).validaSaldo(ArgumentMatchers.anyInt());
 
     }
