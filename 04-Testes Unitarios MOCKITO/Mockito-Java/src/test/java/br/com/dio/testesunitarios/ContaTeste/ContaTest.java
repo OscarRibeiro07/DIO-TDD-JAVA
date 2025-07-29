@@ -3,9 +3,7 @@ package br.com.dio.testesunitarios.ContaTeste;
 import br.com.dio.testesunitatios.domain.Conta;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
-import org.mockito.InOrder;
-import org.mockito.Mockito;
-import org.mockito.Spy;
+import org.mockito.*;
 import org.mockito.junit.jupiter.MockitoExtension;
 
 @ExtendWith(MockitoExtension.class)
@@ -25,5 +23,16 @@ public class ContaTest {
         inOrder.verify(conta).validaSaldo(300);
         inOrder.verify(conta).debita(300);
         inOrder.verify(conta).enviaCreditoParaEmissor(300);
+    }
+
+    @Test
+    void validarQuantidadeDeChamada(){
+
+        conta.validaSaldo(300);
+        conta.validaSaldo(500);
+        conta.validaSaldo(600);
+        // conta quantas vezes o metodo foi chamado 
+        Mockito.verify(conta, Mockito.times(3)).validaSaldo(ArgumentMatchers.anyInt());
+
     }
 }
