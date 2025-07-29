@@ -2,6 +2,7 @@ package br.com.dio.testesunitarios.mensagemTeste;
 
 import br.com.dio.testesunitatios.controller.EnviarMensagem;
 import br.com.dio.testesunitatios.domain.Mensagem;
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.Mockito;
@@ -26,5 +27,7 @@ public class EnviarMenssagemTest {
         enviarMensagem.adicionarMensagem(msg);
         //Verifica se foi chamado o metodo adc mensagem da classe enviar
         Mockito.verify(enviarMensagem).adicionarMensagem(msg);
+
+        Assertions.assertFalse(enviarMensagem.getMensagens().isEmpty());
     }
 }
