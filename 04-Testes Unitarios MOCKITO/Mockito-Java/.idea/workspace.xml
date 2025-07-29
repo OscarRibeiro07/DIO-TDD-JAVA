@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="971bcf05-2fe6-4c41-982e-c6a109ab4162" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="30XUXBoGJiMgsEf7PIdcr5bbvLr" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "JUnit.CadastrarPessoaTest.executor": "Run",
+    "JUnit.CadastrarPessoaTest.lancarExceptionQuandoAPIDosCorreios.executor": "Run",
+    "JUnit.CadastrarPessoaTest.lancarExceptionQuandoChamarAPIDosCorreios.executor": "Run",
+    "JUnit.CadastrarPessoaTest.validarDadosDeCadastro.executor": "Debug",
+    "JUnit.CapiturandoObjetosTest.executor": "Run",
+    "JUnit.ContaTest.executor": "Run",
+    "JUnit.ContaTest.validarOrdemDeChamada.executor": "Run",
+    "JUnit.ContaTest.validarQuantidadeDeChamada.executor": "Run",
+    "JUnit.EnviarMenssagemTest.executor": "Debug",
+    "JUnit.ListaTeste.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "feature/testes-unitarios-mockito",
+    "last_opened_file_path": "C:/Work/DIO-TDD-JAVA/04-Testes Unitarios MOCKITO/Mockito-Java/src/main/java/br/com/dio/testesunitatios/API",
+    "onboarding.tips.debug.path": "C:/Users/negoc/IdeaProjects/Mockito-Java/src/main/java/br/com/dio/testesunitatios/Main.java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Work\DIO-TDD-JAVA\04-Testes Unitarios MOCKITO\Mockito-Java\src\main\java\br\com\dio\testesunitatios\API" />
+      <recent name="C:\Work\DIO-TDD-JAVA\04-Testes Unitarios MOCKITO\Mockito-Java\src\main\java\br\com\dio\testesunitatios" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="br.com.dio.testesunitarios.manipulandoRetornos" />
+      <recent name="br.com.dio.testesunitatios" />
+      <recent name="br.com.dio.testesunitatios.aula4" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.CadastrarPessoaTest.lancarExceptionQuandoAPIDosCorreios">
+    <configuration name="CadastrarPessoaTest.lancarExceptionQuandoAPIDosCorreios" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Mockito-Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.dio.testesunitarios.manipulandoRetornos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.dio.testesunitarios.manipulandoRetornos" />
+      <option name="MAIN_CLASS_NAME" value="br.com.dio.testesunitarios.manipulandoRetornos.CadastrarPessoaTest" />
+      <option name="METHOD_NAME" value="lancarExceptionQuandoAPIDosCorreios" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CadastrarPessoaTest.lancarExceptionQuandoChamarAPIDosCorreios" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Mockito-Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.dio.testesunitarios.manipulandoRetornos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.dio.testesunitarios.manipulandoRetornos" />
+      <option name="MAIN_CLASS_NAME" value="br.com.dio.testesunitarios.manipulandoRetornos.CadastrarPessoaTest" />
+      <option name="METHOD_NAME" value="lancarExceptionQuandoChamarAPIDosCorreios" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CapiturandoObjetosTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Mockito-Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.dio.testesunitarios.capiturandoObjetos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.dio.testesunitarios.capiturandoObjetos" />
+      <option name="MAIN_CLASS_NAME" value="br.com.dio.testesunitarios.capiturandoObjetos.CapiturandoObjetosTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContaTest.validarOrdemDeChamada" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Mockito-Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.dio.testesunitarios.ContaTeste.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.dio.testesunitarios.ContaTeste" />
+      <option name="MAIN_CLASS_NAME" value="br.com.dio.testesunitarios.ContaTeste.ContaTest" />
+      <option name="METHOD_NAME" value="validarOrdemDeChamada" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContaTest.validarQuantidadeDeChamada" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Mockito-Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.dio.testesunitarios.ContaTeste.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.dio.testesunitarios.ContaTeste" />
+      <option name="MAIN_CLASS_NAME" value="br.com.dio.testesunitarios.ContaTeste.ContaTest" />
+      <option name="METHOD_NAME" value="validarQuantidadeDeChamada" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CadastrarPessoaTest.lancarExceptionQuandoAPIDosCorreios" />
+        <item itemvalue="JUnit.CadastrarPessoaTest.lancarExceptionQuandoChamarAPIDosCorreios" />
+        <item itemvalue="JUnit.CapiturandoObjetosTest" />
+        <item itemvalue="JUnit.ContaTest.validarQuantidadeDeChamada" />
+        <item itemvalue="JUnit.ContaTest.validarOrdemDeChamada" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="971bcf05-2fe6-4c41-982e-c6a109ab4162" name="Changes" comment="" />
+      <created>1753773450927</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1753773450927</updated>
+    </task>
+    <servers />
+  </component>
+</project>
